@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'"
   },
-  "keywords": [],
+  "keywords": [
+    "flappy-bee",
+    "highscore",
+    "api",
+    "vercel"
+  ],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Flappy Bee API with high score tracking and Vercel Web Analytics integration",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
 }
